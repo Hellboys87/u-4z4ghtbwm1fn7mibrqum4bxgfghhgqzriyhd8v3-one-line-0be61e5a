@@ -7,9 +7,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// My joke: a goldfish turns the custody tables on its forgetful owner.
+// My joke: a goldfish turns the custody tables on its forgetful owner —
+// tightened so the verdict lands as the punchline, not an explanation.
 const LINE =
-  "The goldfish got custody of me after the trial: the judge decided a three-second memory beats an owner who forgets dinner every day.";
+  "My goldfish won custody of me: the judge ruled a three-second memory still beats an owner who forgets dinner every single day.";
 
 // The competition gate only accepts 1 to 140 characters of real text,
 // so refuse to write anything that would fail it.
